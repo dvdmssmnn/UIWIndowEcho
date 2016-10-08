@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		63B5F2651DA8FE97003FB7C2 /* UIWindowEcho.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B5F2631DA8FE97003FB7C2 /* UIWindowEcho.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63B5F26D1DA900C2003FB7C2 /* UIWindow+Echo.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B5F26B1DA900C2003FB7C2 /* UIWindow+Echo.h */; };
+		63B5F26E1DA900C2003FB7C2 /* UIWindow+Echo.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B5F26C1DA900C2003FB7C2 /* UIWindow+Echo.m */; };
+		63B5F2711DA901CF003FB7C2 /* DMOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B5F26F1DA901CF003FB7C2 /* DMOverlayView.h */; };
+		63B5F2721DA901CF003FB7C2 /* DMOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B5F2701DA901CF003FB7C2 /* DMOverlayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		63B5F2601DA8FE97003FB7C2 /* UIWindowEcho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIWindowEcho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B5F2631DA8FE97003FB7C2 /* UIWindowEcho.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWindowEcho.h; sourceTree = "<group>"; };
 		63B5F2641DA8FE97003FB7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B5F26B1DA900C2003FB7C2 /* UIWindow+Echo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Echo.h"; sourceTree = "<group>"; };
+		63B5F26C1DA900C2003FB7C2 /* UIWindow+Echo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Echo.m"; sourceTree = "<group>"; };
+		63B5F26F1DA901CF003FB7C2 /* DMOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMOverlayView.h; sourceTree = "<group>"; };
+		63B5F2701DA901CF003FB7C2 /* DMOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMOverlayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +56,10 @@
 			children = (
 				63B5F2631DA8FE97003FB7C2 /* UIWindowEcho.h */,
 				63B5F2641DA8FE97003FB7C2 /* Info.plist */,
+				63B5F26B1DA900C2003FB7C2 /* UIWindow+Echo.h */,
+				63B5F26C1DA900C2003FB7C2 /* UIWindow+Echo.m */,
+				63B5F26F1DA901CF003FB7C2 /* DMOverlayView.h */,
+				63B5F2701DA901CF003FB7C2 /* DMOverlayView.m */,
 			);
 			path = UIWindowEcho;
 			sourceTree = "<group>";
@@ -60,6 +72,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				63B5F2651DA8FE97003FB7C2 /* UIWindowEcho.h in Headers */,
+				63B5F2711DA901CF003FB7C2 /* DMOverlayView.h in Headers */,
+				63B5F26D1DA900C2003FB7C2 /* UIWindow+Echo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B5F2721DA901CF003FB7C2 /* DMOverlayView.m in Sources */,
+				63B5F26E1DA900C2003FB7C2 /* UIWindow+Echo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +302,7 @@
 				63B5F26A1DA8FE97003FB7C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
